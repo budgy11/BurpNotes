@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏴☠ Request Smuggling](README.md)
-* [README.md](readme.md.md)
+* [README.md](README.md)
+* [🏴☠ Request Smuggling](<README (1).md>)
 * [🅾 OAuth](oauth.md)
 * [Just Trying to Add](just-trying-to-add.md)
