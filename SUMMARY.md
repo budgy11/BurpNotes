@@ -4,3 +4,5 @@
 * [🏴☠ RequestSmuggling](requestsmuggling.md)
 * [🅾 OAuth](oauth.md)
 * [🗄 Web Cache Poisoning](web-cache-poisoning.md)
+* [🥣 Insecure Deserialization](insecure-deserialization.md)
+* [⛽ Prototype Pollution](prototype-pollution.md)
