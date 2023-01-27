@@ -2,7 +2,7 @@
 description: Exploiting Web Caches
 ---
 
-# Web Cache Poisoning
+# 🗄 Web Cache Poisoning
 
 * Make sure to check for XSS - Includes checking loaded pages and 404s
 
