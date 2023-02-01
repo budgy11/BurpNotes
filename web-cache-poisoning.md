@@ -4,15 +4,17 @@ description: Exploiting Web Caches
 
 # 🗄 Web Cache Poisoning
 
-* Make sure to check for XSS - Includes checking loaded pages and 404s
-
-#### Cache Design Flaws
+Cache Design Flaws
 
 * Param Miner
   * GET-Params, Cookies, Headers
 * Can use any custom get param as cachebuster to avoid poisoning root
 * Cache-Control header reveals max age until cache reset
 * X-Cache shows when "hit"/set
+* Make sure to check for XSS
+  * Includes checking loaded pages and 404s
+  * Some DOM Open Redirects may not work in intercept
+    * Visit URL if vulnerable input is taken from there
 
 #### Cache Implementation Flaws
 

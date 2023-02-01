@@ -5,6 +5,12 @@ description: Request Smuggling Practitioner Labs Notes
 # 🏴☠ RequestSmuggling
 
 * Launch Smuggle Probe and H2 Probe. Might miss CL.0
+* Try sending extra fast request, ctrl+space
+  * Make a separate tab in repeater and spam to see weird requests
+    * Should happen within 10 seconds of holding down request
+* Double check endings of smuggled request
+  * You need to include the trailing sequence `\r\n\r` following the final 0. TE:CL
+* Make sure content-length is appropriate for attack and doesn't eat into the smuggled request
 
 ### CL:TE Diff Response Testing
 
@@ -68,7 +74,10 @@ x=1
 
 * Spam requests until you get two normal responses in a row
   * Means request was sent in between
-  * Go long in content-length to avoid losing data
+  * START SHORT then lengthen content-length
+    * Use headers to simplify padding to avoid 500/400 errors when repeating
+    * Smuggling req content-length can start corrupting 3rd request for smuggle
+      * Should only have two different responses
 
 ### H2 Settings
 
@@ -97,7 +106,7 @@ x=1
 
 **Inspector tab of editing H2 Header for CRLF**
 
-![CRLF Injection in H2C.png](app://local/C:/Users/VictorSemenok/Burping/Attachments/CRLF%20Injection%20in%20H2C.png?1674677441597)
+!\[\[CRLF Injection in H2C.png]]
 
 ### Response Queue Poisoning
 
@@ -132,8 +141,7 @@ Host: 0a0500b303418726c3414233008400b2.web-security-academy.net
 ```
 
 * Also possible in HTTP/2 Headers
-  * May break the website formatting? stay frosty\
-    ![Request Splitting H2 Headers.png](app://local/C:/Users/VictorSemenok/Burping/Attachments/Request%20Splitting%20H2%20Headers.png?1674683716854)
+  * May break the website formatting? stay frosty !\[\[Request Splitting H2 Headers.png]]
 
 ### CL.0
 
@@ -166,3 +174,4 @@ Foo: x
 
 * Request 2 is just a valid request
   * may not be necessary during testing?
+* Similar technique may work with Host header to bypass endpoint restrictions

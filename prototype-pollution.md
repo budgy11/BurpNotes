@@ -33,3 +33,5 @@ description: Prototype pollution notes for the first couple labs
       8. Step through the execution phases to search for DOM Sink
   * Use DOM Invader
   * Use Breakpoints in console debugger for troubleshooting broken exploits
+* Header Pollution - `?__proto__[headers][x-username]=<img/src/onerror=alert(1)>`
+* Check for JS files filtering for common injection strings
