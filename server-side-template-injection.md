@@ -17,7 +17,7 @@
 
 * `greeting = getQueryParameter('greeting')`
 * `engine.render("Hello {{"+greeting+"}},data))`
-* [http://website.com/?greeeting=data.username](http://website.com/?greeeting=data.username)
+* [http://website.com/?greeting=data.username](http://website.com/?greeeting=data.username)
 * Easier to miss, doesn't do XSS
   * Instead leads to blank entries, encoded tags, or an error
 * Try to breakout and inject HTML `data.username}}<tag>`
@@ -26,8 +26,11 @@
 
 * Figure out the template engine
 * Try to get an error message i.e `<%=foobar%>` in Ruby - ERB engine
-* Decision Tree for some engines\
-  ![template-decision-tree.png](app://local/C:/Users/VictorSemenok/Burping/Attachments/template-decision-tree.png?1675436228317)
+* Decision Tree for some engines
+
+!\[SSTI Template Tree]\([https://github.com/budgy11/BurpNotes/blob/main/.gitbook/assets/template-decision-tree.png](.gitbook/assets/template-decision-tree.png))
+
+
 
 #### Exploit
 
