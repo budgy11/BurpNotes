@@ -2,7 +2,7 @@
 description: Super Bare
 ---
 
-# 📁 Directory Traversal
+# 🥾 Directory Traversal
 
 * Absolute path
 * traversal sequence not stripped recursively `....//`

@@ -7,4 +7,7 @@
 * [🥣 Insecure Deserialization](insecure-deserialization.md)
 * [⛽ Prototype Pollution](prototype-pollution.md)
 * [🏔 CORS](cors.md)
-* [📁 Directory Traversal](directory-traversal.md)
+* [🥾 Directory Traversal](directory-traversal.md)
+* [🗃 File Upload](file-upload.md)
+* [🛕 Server Side Template Injection](server-side-template-injection.md)
+* [❌ XXE](xxe.md)
