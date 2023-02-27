@@ -106,7 +106,7 @@ x=1
 
 **Inspector tab of editing H2 Header for CRLF**
 
-!\[\[CRLF Injection in H2C.png]]
+!\[CRLF Injection in H2C.png]\([https://github.com/budgy11/BurpNotes/blob/main/.gitbook/assets/CRLF%20Injection%20in%20H2C.png](.gitbook/assets/CRLF%20Injection%20in%20H2C.png))
 
 ### Response Queue Poisoning
 
