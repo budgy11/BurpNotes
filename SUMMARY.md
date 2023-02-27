@@ -7,3 +7,4 @@
 * [🥣 Insecure Deserialization](insecure-deserialization.md)
 * [⛽ Prototype Pollution](prototype-pollution.md)
 * [🏔 CORS](cors.md)
+* [📁 Directory Traversal](directory-traversal.md)
