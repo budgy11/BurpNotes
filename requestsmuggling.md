@@ -140,8 +140,11 @@ Host: 0a0500b303418726c3414233008400b2.web-security-academy.net
 
 ```
 
-* Also possible in HTTP/2 Headers
-  * May break the website formatting? stay frosty !\[\[Request Splitting H2 Headers.png]]
+*   Also possible in HTTP/2 Headers
+
+    * May break the website formatting? stay frosty&#x20;
+
+    !\[Request Splitting H2 Headers.png]\([https://github.com/budgy11/BurpNotes/blob/main/.gitbook/assets/Request%20Splitting%20H2%20Headers.png](.gitbook/assets/Request%20Splitting%20H2%20Headers.png))
 
 ### CL.0
 
