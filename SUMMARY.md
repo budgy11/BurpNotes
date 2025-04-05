@@ -12,3 +12,4 @@
 * [🛕 Server Side Template Injection](server-side-template-injection.md)
 * [❌ XXE](xxe.md)
 * [XSS](xss.md)
+* [SQLI](sqli.md)
