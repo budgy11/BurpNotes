@@ -2,7 +2,9 @@
 description: Request Smuggling Practitioner Labs Notes
 ---
 
-# 🏴☠ RequestSmuggling
+# 🏴‍☠️ RequestSmuggling
+
+Make sure to change to write HTTP protocol (1.1 or 2) and disable update content-length header
 
 * Launch Smuggle Probe and H2 Probe. Might miss CL.0
 * Try sending extra fast request, ctrl+space
