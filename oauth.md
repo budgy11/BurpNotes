@@ -2,7 +2,9 @@
 description: Portswigger Practitioner Lab notes for OAuth exploits
 ---
 
-# 🅾 OAuth
+# 🅾️ OAuth
+
+**OAUTH Scan Extension - make sure to check passive results**
 
 **Check /.well-known/\* directory**
 

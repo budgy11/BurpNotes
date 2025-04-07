@@ -13,3 +13,4 @@
 * [❌ XXE](xxe.md)
 * [XSS](xss.md)
 * [SQLI](sqli.md)
+* [Scanning](scanning.md)
