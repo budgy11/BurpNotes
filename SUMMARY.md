@@ -14,3 +14,4 @@
 * [XSS](xss.md)
 * [SQLI](sqli.md)
 * [Scanning](scanning.md)
+* [SSRF](ssrf.md)
