@@ -15,3 +15,4 @@
 * [SQLI](sqli.md)
 * [Scanning](scanning.md)
 * [SSRF](ssrf.md)
+* [Directory Enumeration](directory-enumeration.md)
