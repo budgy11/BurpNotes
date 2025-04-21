@@ -1,6 +1,6 @@
 # XSS
 
-eval(atob(b64\_payload)) can help with some bypasses (eval() can be nested)
+eval(atob(b64\_payload)) can help with using base64 to bypass WAFs in JS code context
 
 ````javascript
 //eval("String" + <USER_INPUT>)
