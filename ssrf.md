@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # SSRF
 
 Localhost list:

@@ -1,6 +1,12 @@
+---
+icon: js
+---
+
 # XSS
 
 eval(atob(b64\_payload)) can help with using base64 to bypass WAFs in JS code context
+
+* Comments can be used to remove `=` padding from b64 if necessary
 
 ````javascript
 //eval("String" + <USER_INPUT>)

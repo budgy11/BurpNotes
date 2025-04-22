@@ -1,5 +1,6 @@
 ---
 description: Scanning notes
+icon: radar
 ---
 
 # Scanning

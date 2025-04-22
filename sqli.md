@@ -1,3 +1,7 @@
+---
+icon: syringe
+---
+
 # SQLI
 
 Make sure SQLMAP DNS Collaborator extension is still installed (testing)

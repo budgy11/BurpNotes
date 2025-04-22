@@ -1,3 +1,7 @@
+---
+icon: folders
+---
+
 # Directory Enumeration
 
 Just use the discover content probably
