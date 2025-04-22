@@ -17,3 +17,4 @@
 * [Scanning](scanning.md)
 * [SSRF](ssrf.md)
 * [Directory Enumeration](directory-enumeration.md)
+* [Password Brute Forcing](password-brute-forcing.md)
