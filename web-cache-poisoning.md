@@ -2,7 +2,7 @@
 description: Exploiting Web Caches
 ---
 
-# 🗄 Web Cache Poisoning
+# 🗄️ Web Cache Poisoning
 
 Cache Design Flaws
 
@@ -10,6 +10,7 @@ Cache Design Flaws
   * GET-Params, Cookies, Headers
 * Can use any custom get param as cachebuster to avoid poisoning root
 * Cache-Control header reveals max age until cache reset
+* Even if found on utm\_content check generic query params and if headers (i.e origin) are part of the key.
 * X-Cache shows when "hit"/set
 * Make sure to check for XSS
   * Includes checking loaded pages and 404s
