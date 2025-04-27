@@ -32,6 +32,7 @@ description: Prototype pollution notes for the first couple labs
       7. Jump to the link in the stack trace that shows where the property is read
       8. Step through the execution phases to search for DOM Sink
   * Use DOM Invader
+    * Note that scan for gadgets will pop up on the top and may require reloading the extension after inserting the matching canary in the input
   * Use Breakpoints in console debugger for troubleshooting broken exploits
 * Header Pollution - `?__proto__[headers][x-username]=<img/src/onerror=alert(1)>`
 * Check for JS files filtering for common injection strings
