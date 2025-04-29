@@ -85,6 +85,16 @@ x=1
 
 * Launch H2 Smuggle Probe to scan
   * Won't show up through normal active scan
+  * Dual Path shows up on EVERY LAB (Not just Request Smuggling)
+
+| H2 Lab                                      | Request Smuggler Result                                                            |
+| ------------------------------------------- | ---------------------------------------------------------------------------------- |
+| H2.CL                                       | <ul><li>CL.0 desync:h2CL|GET /favicon.ico</li><li>Dual path supported v2</li></ul> |
+| HTTP/2 Request Smuggling via CLRF Injection | <ul><li>Dual path supported v2</li></ul>                                           |
+| HTTP/2 Request Splitting via CLRF Injection | <ul><li>Dual path supported v2</li></ul>                                           |
+
+
+
 * Repeater Options disable Update Content Length
 * Repeater Options enable Allow HTTP/2 ALPN override
 * Inspector -> Request Attributes -> Protocol HTTP/2
